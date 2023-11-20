@@ -1,0 +1,97 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:hover{
+    border-bottom: 1px solid #ff3838;
+}
+
+ul{
+    display: flex;
+    gap: 9%;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #ff3838;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid transparent;
+}
+button:hover{
+    color: #ff3838;
+    background-color: #fff;
+    border: 1px solid #ff3838;
+}
+
+.Cat{
+    color: #ff3838;
+    background-color: #fff;
+    border: 1px solid #ff3838;
+}
+
+.Cat:hover{
+    color: #fff;
+    background-color: #ff3838;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+    padding: 3rem 5rem;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .hero h1 {
+    font-weight: 800;
+    line-height: 5rem;
+    font-size: 5rem;
+  }
+  .hero p {
+    font-weight: 600;
+    color: gray;
+    max-width: 400px;
+  }
+  
+  .hero-btn {
+    display: flex;
+    gap: 40px;
+  }
+  .hero-btn button {
+    font-size: 15px;
+  }
+  .secondary-btn {
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+  }
+  
+  .shopping p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .brand-icons {
+    display: flex;
+    gap: 16px;
+  }
+
+  .hero-image img{
+    width: 25rem;
+}
